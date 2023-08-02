@@ -89,3 +89,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	oras.land/oras-go/v2 v2.2.1 // indirect
 )
+
+replace github.com/open-policy-agent/opa => github.com/slonka/opa v0.55.0-without-containerd
