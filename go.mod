@@ -19,7 +19,6 @@ require (
 )
 
 require (
-	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230106234847-43070de90fa1 // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -28,8 +27,6 @@ require (
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4 // indirect
-	github.com/containerd/containerd v1.7.2 // indirect
-	github.com/cyphar/filepath-securejoin v0.2.3 // indirect
 	github.com/dgraph-io/badger/v3 v3.2103.5 // indirect
 	github.com/dgraph-io/ristretto v0.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
@@ -53,10 +50,7 @@ require (
 	github.com/klauspost/compress v1.16.0 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
-	github.com/moby/locker v1.0.1 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
-	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.1.0-rc4 // indirect
 	github.com/peterh/liner v1.2.2 // indirect
 	github.com/prometheus/client_model v0.4.0 // indirect
 	github.com/prometheus/common v0.42.0 // indirect
@@ -80,14 +74,12 @@ require (
 	go.uber.org/automaxprocs v1.5.3 // indirect
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/net v0.12.0 // indirect
-	golang.org/x/sync v0.3.0 // indirect
 	golang.org/x/sys v0.10.0 // indirect
 	golang.org/x/text v0.11.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/genproto v0.0.0-20230526203410-71b5a4ffd15e // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230526203410-71b5a4ffd15e // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	oras.land/oras-go/v2 v2.2.1 // indirect
 )
 
-replace github.com/open-policy-agent/opa => github.com/slonka/opa v0.55.0-without-containerd
+replace github.com/open-policy-agent/opa => github.com/slonka/opa v0.55.0-without-containerd-2
